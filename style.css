@@ -133,4 +133,10 @@ nav ul{
     height: 3px;
     transition: width 1s ease-in-out;
     }
+      .imgbox img{
+        justify-items: center;
+        padding: 6px 13px;
+        margin-right: 48px;
+        margin-top: -6px;
+    }
 }
