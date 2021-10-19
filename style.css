@@ -127,4 +127,10 @@ nav ul{
         font-family: 'roboto', sans-serif;
         padding: 5px;
     }
+     .line{
+    background-color: rgb(255, 39, 39);
+    width: 0vw;
+    height: 3px;
+    transition: width 1s ease-in-out;
+    }
 }
