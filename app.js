@@ -1,5 +1,4 @@
 console.log("Welcome to Tic Tac Toe")
-let bgmusic = new Audio("music.mp3")
 let audioTurn = new Audio("ting.mp3")
 let gameover = new Audio("gameover.mp3")
 let turn = 'X';
@@ -69,6 +68,24 @@ reset.addEventListener('click', () => {
     document.querySelector('.line').style.width = "0vw";
     document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width = "0px"
 })
+
+// Background Music Control
+
+let MusicBtn = document.getElementById('Music');
+let bgmusic = new Audio('music.mp3');
+let count = 0;
+
+function PlayPause() {
+    if (count == 0) {
+        count = 1;
+        bgmusic.play();
+        MusicBtn.innerHTML = 'Pause music';
+    } else {
+        count = 0;
+        bgmusic.pause();
+        MusicBtn.innerHTML = 'Play music';
+    }
+}
 
 
 
