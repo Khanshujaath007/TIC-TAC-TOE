@@ -6,8 +6,8 @@
 }
 
 nav{
-    background-color: rgb(54, 241, 86);
-    color: rgb(41, 122, 175);
+    background-color: rgb(85 189 227);
+    color: rgb(0 0 0);
     height: 35px;
     display: flex;
     align-items: center;
@@ -19,6 +19,8 @@ nav{
 
 nav ul{
     list-style-type: none;
+    font-size: xx-large;
+    padding-top: 16px;
 }
 .gameContainer{
     display: flex;
@@ -31,7 +33,8 @@ nav ul{
     grid-template-columns: repeat(3, 13vw);
     grid-template-rows: repeat(3, 13vw);
     font-family: 'roboto', sans-serif;
-    padding: 10px;
+    padding: 16px;
+    margin: 3px 57px;
 }
 
 .box{
@@ -48,7 +51,7 @@ nav ul{
 }
 
 .gameInfo{
-    padding: 0 15px;
+    padding: 14px 19px;
     font-family: 'Kalam', cursive;
     font-size: 30px;
     text-align: center;
@@ -90,9 +93,46 @@ nav ul{
     background-color: rgb(255, 39, 39);
     width: 0;
     height: 5px;
+    
     position: absolute;
     transition: width 1s ease-in-out;
 }
+
+#musicbtn{
+    font-size: 14px;
+  border-radius: 9px;
+    margin: 0 auto;
+    display: inline-block;
+    display: inline-block;
+    margin: 3px -21px;
+
+}
+
+#Music{
+    font-size: 15px;
+    border: black;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Kalam';
+    color: black;
+    padding: 2px 6px;
+    margin: -9px -5px;
+    cursor: pointer;
+    text-align: center;
+}
+  
+  /* Darker background on mouse-over */
+  #music:hover {
+    background-color: rgb(161, 191, 236)
+  }
+
+
+
+
+
+
 
 @media screen and (max-width:800px)
 {
@@ -127,16 +167,16 @@ nav ul{
         font-family: 'roboto', sans-serif;
         padding: 5px;
     }
-     .line{
+    .line{
     background-color: rgb(255, 39, 39);
     width: 0vw;
     height: 3px;
     transition: width 1s ease-in-out;
     }
-      .imgbox img{
+    .imgbox img{
         justify-items: center;
         padding: 6px 13px;
-        margin-right: 70px;
+        margin-right: 35px;
         margin-top: -6px;
     }
 }
