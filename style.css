@@ -34,7 +34,7 @@ nav ul{
     grid-template-rows: repeat(3, 13vw);
     font-family: 'roboto', sans-serif;
     padding: 16px;
-    margin: 3px 57px;
+    margin: 3px 5px;
 }
 
 .box{
@@ -110,6 +110,8 @@ nav ul{
 
 #Music{
     font-size: 15px;
+    position: absolute;
+    right: 29px;
     border: black;
     border-radius: 5px;
     justify-content: center;
@@ -151,7 +153,7 @@ nav ul{
         font-size: 30px;
     }
     #reset{
-        padding:  3px 16px;
+    padding:  3px 16px;
     background-color: rgb(255, 47, 47);
     font-family: 'Kalam';
     font-size: 20px;
